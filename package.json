@@ -1,12 +1,13 @@
 {
   "name": "streams-on-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Estudando como funcionam as streams do nodejs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "node ./index"
   },
   "keywords": [],
-  "author": "",
+  "author": "João Gabriel dos Reis Hermida Macêdo",
   "license": "ISC"
 }

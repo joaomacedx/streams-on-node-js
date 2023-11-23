@@ -1,6 +1,6 @@
 import { Readable } from 'node:stream'
 
-export class OneToHundredStream extends Readable {
+class OneToHundredStream extends Readable {
   index = 1;
 
   _read() {
@@ -17,3 +17,5 @@ export class OneToHundredStream extends Readable {
 
   }
 }
+
+export default OneToHundredStream
