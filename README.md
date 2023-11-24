@@ -67,5 +67,5 @@ $ npm run start:dev
 
 ![Example](./assets/example.png)
 
-[Ref.](https://nodejs.org/api/stream.html)
+[Referência](https://nodejs.org/api/stream.html)
 
