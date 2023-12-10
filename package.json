@@ -7,7 +7,10 @@
   "scripts": {
     "start:dev": "node ./index",
     "start:dev-http-server": "node ./streams/stream-http/StreamHttpServer.js",
-    "start:dev-fake-http-upload": "node ./streams/stream-http/fake/FakeUploadToHttpServer.js"
+    "start:dev-http-buffers": "node ./streams/stream-http/StreamHttpServerUsingBuffers.js",
+    "start:dev-fake-http-upload": "node ./streams/stream-http/fake/FakeUploadToHttpServer.js",
+    "start:dev-fake-http-upload-buffers": "node ./streams/stream-http/fake/FakeUploadToHttpServerUsingBuffers.js"
+
 
   },
   "keywords": [],
