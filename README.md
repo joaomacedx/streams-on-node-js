@@ -65,6 +65,7 @@ $ npm install
 $ npm run start:dev
 ```
 
-![Run Example](./assets/example.png)
+![Example](./assets/example.png)
 
+[Referência](https://nodejs.org/api/stream.html)
 
