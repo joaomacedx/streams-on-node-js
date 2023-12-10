@@ -5,7 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start:dev": "node ./index"
+    "start:dev": "node ./index",
+    "start:dev-http-server": "node ./streams/stream-http/StreamHttpServer.js",
+    "start:dev-fake-http-upload": "node ./streams/stream-http/fake/FakeUploadToHttpServer.js"
+
   },
   "keywords": [],
   "author": "João Gabriel dos Reis Hermida Macêdo",
